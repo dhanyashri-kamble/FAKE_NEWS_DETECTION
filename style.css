@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.progress {
+    border-radius: 10px;
+}
+
+.result-icon {
+    font-size: 4rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+}
